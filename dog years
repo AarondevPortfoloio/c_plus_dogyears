@@ -1,0 +1,20 @@
+#include <iostream>
+
+int main() {
+  
+int early_years;
+int later_years;
+int human_years;
+int dog_age = 72;
+ 
+
+   early_years = 21;
+   //early_years variable
+   later_years = (dog_age - 2) * 4;
+   //later_years variable 
+
+  human_years = early_years + later_years;
+   // adds early years and later years and stores it in a variable.
+  
+  std::cout << "My name is James! Ruff ruff, I am \n" << human_years <<" years old in human years.";
+}
